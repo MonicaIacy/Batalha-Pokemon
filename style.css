@@ -1,0 +1,52 @@
+body {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.pokemon-list {
+  display: flex;
+  justify-content: center;
+  
+  max-width: 40rem;
+  margin: auto;
+}
+
+.pokemon {
+  border: 1px dotted rgb(140, 130, 130);
+  padding: .5rem;
+  
+  background: rgb(158, 185, 234);
+  text-align: center;
+}
+
+.vs {
+  text-align: center;
+  margin: auto;
+  font-size: 2rem;
+}
+
+button {
+  background-color: rgb(175, 146, 146);
+  border: dotted 1px;
+  border-radius: 10px;
+  padding: 5px;
+  
+  display: flex;
+  margin: 1rem auto;
+
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+}
+
+img {
+  width: 100%;
+}
